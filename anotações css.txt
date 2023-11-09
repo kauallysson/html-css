@@ -1,0 +1,41 @@
+anotações de codigo em css
+<img src="(imagem)" alt="(descrição)">
+para adicionar imagens e a descrição da imagem
+
+<link rel ="shortvut icon" href="favicon" type="image/x-icon>
+essa tag tem q ser colocada no "head" para mudar o icone do site
+
+<style> body{background-color ----} </style>
+para mudar a cor de fundo do site
+
+<link rel="stylesheet" href=(style.css)>
+crie a pasta STYLE.CSS para poder criar codigo de css em outro lugar 
+logo apos criar a pasta crie a tag (@charset "UTF-8";)
+
+body{
+background-image: linear-gradiante("qualquer lado" autura largura);
+} (degrader na cor de fundo do site)
+
+main{
+background-color: (cor;)
+bonder-radius: (numero de pixels;)  (aredondamento da borda)
+broder-image-source: url("(nome do arquivo)");
+border-image-slice:"";
+border-image-repeart:"";
+box-shadow: "0"px "0"px "0"px (cor); (sobra da caixa, (lado), (baixo), (espalhamento),(transparencia via cor)
+width: 000px; (largura)
+padding: 0px; (acochoamento/espaçamento)
+margin: auto; (margen "auto" centraliza automaticamente)
+height: 00px; (altura)
+
+
+id="" (identificador) id= #""
+class="" (classes) class= ."""
+(pseudo-classes)= ":" {}(estado do elemento)
+(pseudo-element) = "::" 
+(cildren) = ">" 
+usar o (>) corresponde a tal tag ter uma escondida
+"hover" (mudar de estado ao passar do mouse por cima)
+"hover" > "" 
+
+box-shadow("orizontal" "vertical" "espalhamento" "cor")

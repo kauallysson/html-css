@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo-de-caixa</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{ /*box-level*/
+            background-color: aqua;
+            height: 250px;
+            width: 250px;
+
+
+/*
+            border-width: 25px;
+            border-style: solid;
+            border-color: rgb(39, 39, 246);
+*/
+            border: 25px solid rgb(39, 39, 246);
+
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 50px;
+            margin-left: 20px;/*
+
+            /* margin : auto;*/
+
+            margin: 20px 20px 50px 20px;
+
+           /* outline-width: 5px;
+            outline-style: dashed;
+            outline-color: rgb(164, 8, 178);*/
+
+            outline: 5px dashed rgb(164, 8, 178);
+
+        }
+        p{ /*inline-level*/
+            background-color: bisque;
+            height: 120px;
+            width: 120px;
+            
+            border: 12px solid greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixa</h1>
+    <p>paragrafo tambem é uma box level mas <a href="box2.html">o link é uma box-inline</a></p>
+</body>
+</html>

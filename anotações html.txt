@@ -1,0 +1,165 @@
+anotações de codigos de html
+<h1>,h2,h3,h4,h5,h6</h1>
+a tag h seguida de um nomero são tags de hierarquia de titulos
+
+<p></p>
+a tag P é a tag de paragrafos
+
+<hr></hr>
+tag hr server para fazer linhas ao redor de outras tags, geralmente paragrafos
+
+&lt;-&gt
+serve para colocar tags dentro para aparecerem sem ficarem ativas
+
+<br></br>
+para fazer a quebra de linhas
+
+&-;
+para usar emojis e simbolos especiais
+
+
+<address></address>
+letra italica
+
+<u></u>
+letras sublinhadas (não semantica)
+
+<b></b>
+para termos em negrito (não semantica)
+
+<strong></strong>
+para termos em negrito (com semantica)
+
+<i></i>
+énfase em frases (sem semantica)
+
+<em></em>
+énfase em frases (com se mantica)
+
+<mark></mark>
+para criar marcações de textos (literalmente marcar um texto)
+
+mark{background-color: -- -- --;}
+mudar a cor de todas as marcações do no codigo(deve ser colocada no head)
+
+<small></small>
+para dexar texto pequenos(letras pequenas )
+
+<big<>/big>
+textos grandes(porem essa tag estar obsoleta, so questao de tempo para ela não funcionar mais)
+
+<del></del>
+marcar um texto como "excluido"
+
+<ins></ins>
+marca um texto como "inserido"
+
+<sup>--</sup>
+para deixar uma letra ou numero elevado (como na matematica)
+
+<sub>--</sub>
+para deixar um letra ou numero a baixo dos outros( como usado em quimica no elementos)
+
+<code></code>
+deixa as letras mais emcorpadas (mais usado no javascript)
+
+<blockquote cite="(link)"></blockquote>
+citação a um site de onde se originou ou estar sendo citado esse texto
+
+<abbr title="(titulo da abreviação)">--</abbr>
+coloca o nome da abreviação(exeplo: html ou css)
+
+<ol></ol>
+criar listas ordenadas (type="(formato da letra)" e start="(por onde começar") podem ser colocadas dentro da tag
+
+<ul></ul>
+listas não ordenadas(type="(forma da marcação da lista)" (circle,square...)
+
+<li></li> 
+marca como parte da lista
+
+<dl></dl>
+lista de definições 
+
+<dt></dt>
+item que vai ter a determinação
+
+<dd></dd>
+a determinação do item
+
+<a href="(link associado a palavra)"></a>
+associa um link a uma palavra e tambem pode se coloca outras definições dentro
+da tag depois do href, como(target="(_blank ou _self)" e rel="(external e sevs)"
+"balnk" é usando junto do "external" para abrir outra aba do link
+"self" junto do "sevs" para abrir dentro da mesma aba 
+
+<a href="(link do arquivo que vai ser baixado)"></a>
+quando usado para fazer download escolhe o arquivo q vai ser baixado
+
+<picture>
+<source midia="(definições da imagem)" srcset="(nome da imagem)" type="(tipo de imagem">
+</picture>
+picture serve para deixar imagens flexiveis e se adaptarem a diferentes tipos de telas
+
+<source src="(audio)" type="audio/(mpeg ou ogg)">
+<video width="500" controls autoplay>
+<source scr="(video)" type="video/mp4">
+</video>
+a source para imagens deve ser usada dentro da tag PICTURE
+ja pra video tem q ser dentro da tag video se for um arquivo lical
+se for extreno deve usar a tag <iframe>
+
+body{
+font-family:(escolha de fonte)
+color;(cor)
+font-size;(numero de pixels da letra)}
+body}
+
+text-align;(justify); 
+para alinhar o texto
+
+<link rel="stylesheet" href=(style.css)>
+crie a pasta STYLE.CSS para poder criar codigo de css em outro lugar 
+logo apos criar a pasta crie a tag (@charset "UTF-8";)
+
+medidas asolutas:
+             cm, mm, in, px, pt, pc
+medidas relativas:
+             em, ex, rem, vw, vh, %
+(tipos de medidas para usar no font-size)
+
+shorthand
+font-style, font-weight, font-size, font-family
+(sequencia de comendos a serem usados para economizar linhas de css)
+EX.:(font:italic) (400) (1.60em) (arial, helvetica, sans-serif)
+
+@import url("link da fonte") fonte importada de site web(usar no style)
+
+@font-face{
+font-family: "(nome da fonte)";
+src: url("local da fonte")
+format("formato da fonte")
+font-weight: ("largura da fonte"); }
+format:
+      opentype(otf)
+      truetype(ttf)
+      embedded-opentype
+      truetype-aat
+      svg
+
+
+<div></div>
+uma area fica selecionada na pagina e pode ser modificada{
+
+header(cabeçario)
+main(principal)
+footer(rodapé)}
+
+<section></section>
+seção(assuntos-noticias)
+
+<article></article>
+artigo
+
+<aside></aside>
+conteudo relativo ao artigo
