@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        tr{
+            background-color: aqua;
+        }
+        td.impar {
+            background-color: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabelas em HTML</h1>
+    <!--
+        hierarquia de tabelas(simples)
+        table = tabela
+            table row = linha de tabela
+                table header = cabeçalho da tabela
+                table data = dado da tabela
+    -->
+    <table>
+        <tr>
+            <td class="impar">a1</td>
+            
+        </tr>
+        <tr>
+            <td>a2</td>
+            <td>b2</td>
+            
+        </tr>
+        <tr>
+            <td class="impar">a3</td>
+            <td class="impar">b3</td>
+            <td class="impar">c3</td>
+        </tr>
+        <tr>
+            <td>a4</td>
+            <td>b4</td>
+            <td>c4</td>
+            <td>d4</td>
+        </tr>
+        <tr>
+            <td class="impar">a5</td>
+            <td class="impar">b5</td>
+            <td class="impar">c5</td>
+        </tr>
+        <tr>
+            <td>a6</td>
+            <td>b6</td>
+        </tr>
+        <tr>
+            <td class="impar">a7</td>
+        </tr>
+    </table>
+</body>
+</html>
