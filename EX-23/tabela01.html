@@ -9,18 +9,25 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
-            width: 400px;
+            width: 600px;
+            height: 600px;
             border-collapse: collapse;
         }
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: left; /* alinhamento horizontal*/
+            vertical-align: top; /*alinhamento vertical*/
         }
         tr{
             background-color: aqua;
         }
         td.impar {
             background-color: deepskyblue;
+        }
+        .numero {
+            text-align: right;
+            vertical-align: middle;
         }
     </style>
 </head>
@@ -50,8 +57,8 @@
         </tr>
         <tr>
             <td>a4</td>
-            <td>b4</td>
-            <td>c4</td>
+            <td class="numero">400</td>
+            <td class="numero">400</td>
             <td>d4</td>
         </tr>
         <tr>
