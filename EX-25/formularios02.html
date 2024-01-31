@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <style>
+        body{
+            background-color: rgba(97, 195, 162, 0.664);
+        }
+    </style>
+</head>
+<body>
+    <h1>teste de formularios</h1>
+    <form action="formulario.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">usuario:</label>
+            <input type="text" name="usu" id="iusu" required minlength="4" maxlength="40" size="12" placeholder="nome do usuario" autocomplete="username">
+        </p>
+        <p>
+            <label for="isenha">senha:</label>
+            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="12" placeholder="senha do usuario" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
