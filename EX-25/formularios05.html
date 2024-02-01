@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <style>
+        body{
+            background-color: rgba(73, 154, 127, 0.73);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        fieldset, legend{
+            background-color: white;
+        }
+        label:hover{
+            background-color: rgba(0, 0, 255, 0.456);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>formularios</h1>
+
+    <form action="formulario.php" autocomplete="on">
+        <fieldset>
+            <legend>secsu</legend>
+            <input type="radio" name="secsu" id="isxm" value="M">
+            <label for="isxm">masculino</label> <br>
+            <input type="radio" name="secsu" id="isxf" value="F">
+            <label for="isxf">feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>esportes favoritos</legend>
+            <input type="checkbox" name="fut" id="ifut" > <label for="ifut">futebol</label> <br>
+            <input type="checkbox" name="vol" id="ivol" > <label for="ivol">volei</label> <br>
+            <input type="checkbox" name="corr" id="icorr" > <label for="icorr">corrida</label> <br>
+            <input type="checkbox" name="musc" id="imusc" > <label for="imusc">musculação</label> <br>
+        </fieldset>
+
+        <input type="submit" value="Enviar"> 
+        <input type="reset" value="Limpar"> 
+
+    </form>
+</body>
+</html>

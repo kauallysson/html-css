@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <style>
+        body{
+            background-color: rgba(96, 191, 159, 0.675);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>formularios</h1>
+    <form action="formulario.php" method="post">
+
+        <p>
+            <label for="icor">cor:</label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
+        </p>
+        <p>
+            <label for="irange">nivel de satisfação</label>
+            <input type="range" name="range" id="irange" min="1" max="5">
+        </p>
+        <p>
+            <label for="ifoto">foto</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </p>
+    </form>
+</body>
+</html>
