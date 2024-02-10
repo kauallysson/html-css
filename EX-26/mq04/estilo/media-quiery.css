@@ -1,3 +1,68 @@
 @charset "UTF-8";
 
 /*filtragem de midias*/
+
+/*
+cel = min:576px, max: 768px  (mobile fist ignora essa midia)
+tablet = min:768px, max: 992px
+pc = min:992px, max: 1200px
+tv = min:1200px, max: ilimited
+*/
+
+@media print{
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background: url(../imagens/icon-print.png);
+    }
+    main{
+        border: 2px  solid black;
+    }
+    main h1{
+        color: black;
+        text-shadow: none;
+    }
+    main::after{
+        content: "este site é uma criação de um projeto do curso de programação, embora HTML e CSS não sejam linguagens de programação.";
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 992px){
+    body{
+        background: url(../imagens/back-tablet.jpg);
+    }
+
+    img#cell {display: none;}
+    img#impre{display: none;}
+    img#tablet{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background: url(../imagens/back-pc.jpg);
+    }
+
+    img#cell {display: none;}
+    img#impre{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: block;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background: url(../imagens/back-tv.jpg);
+    }
+    main{
+        width: 700px;
+    }
+
+    img#cell {display: none;}
+    img#impre{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: none;}
+    img#tv{display: block;}
+}
